@@ -1,5 +1,6 @@
 
 from src.math_operation import add,sub
+import unittest
 
 def test_add():
     assert(2,3) == 5
@@ -11,4 +12,5 @@ def test_sub():
     assert(2,2) == 0
     assert(-1,1) == -2
 
-    
+if __name__ == '__main__':
+        unittest.main()  
